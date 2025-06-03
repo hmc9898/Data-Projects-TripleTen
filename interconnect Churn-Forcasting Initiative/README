@@ -1,0 +1,42 @@
+# Customer Churn Prediction
+
+## Project Overview  
+This project focuses on developing and evaluating classification models to predict customer churn for a fictional telecom provider. The goal was to identify patterns in customer behavior and build a model to support proactive retention strategies. The process involved data preparation, exploratory analysis, feature engineering, model comparison, and interpretation.
+
+## Objectives  
+- Explore key drivers of churn behavior through visual and statistical analysis  
+- Prepare and encode data for supervised learning models  
+- Train and tune multiple classifiers (Logistic Regression, Random Forest, LightGBM)  
+- Evaluate models using ROC AUC and F1-score metrics  
+- Translate results into business-relevant insights  
+
+## Tools & Technologies  
+- Python  
+- pandas, NumPy  
+- scikit-learn, LightGBM  
+- matplotlib, seaborn  
+- Jupyter Notebook  
+
+## Methodology  
+1. Cleaned and prepared the customer dataset, handling missing values and encoding categorical variables  
+2. Performed exploratory data analysis to identify trends and correlations with churn  
+3. Engineered new features and split data into training and validation sets  
+4. Trained Logistic Regression, Random Forest, and LightGBM classifiers  
+5. Compared model performance using ROC AUC, F1, and confusion matrices  
+6. Interpreted feature importance and visualized prediction thresholds  
+
+## Key Results  
+- LightGBM achieved the highest ROC AUC and balanced precision-recall performance  
+- Key predictors included tenure, contract type, and monthly charges  
+- The model enables targeted retention strategies by prioritizing high-risk segments  
+
+## Limitations & Future Work  
+- Results are based on historical data and may not generalize to future patterns without retraining  
+- Incorporating time-dependent behavior or customer sentiment could enhance prediction accuracy  
+- Potential next steps include building a dashboard or deploying the model into a real-time system  
+
+## Author
+
+Heather Marie Culligan  
+[LinkedIn](https://linkedin.com/in/hmc2025)  
+[GitHub](https://github.com/hmc9898)
